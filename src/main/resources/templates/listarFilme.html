@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <div>
+        <p><strong>Nome: </strong><Span th:text="${filme.nome}"></Span></p>
+        <img th:src="${filme.imagem}" width="30%">
+        <p><strong>Sinopse: </strong><Span th:text="${filme.sinopse}"></Span></p>
+        <p><strong>Genero: </strong><Span th:text="${filme.genero}"></Span></p>
+        <p><strong>Duração: </strong><Span th:text="${filme.duracao}"></Span></p>
+        <p><strong>Data: </strong><Span th:text="${filme.dataLancamento}"></Span></p>
+    </div>
+</div>
+
+</body>
+</html>
